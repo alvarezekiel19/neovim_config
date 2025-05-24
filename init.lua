@@ -12,18 +12,18 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup {
-    require 'plugins.colortheme', -- Load Colortheme
-    require 'plugins.neotree', -- Load Neotree
-    require 'plugins.bufferline', -- Load bufferline
-    require 'plugins.lualine', -- Load Lualine
-    require 'plugins.treesitter', -- Load treesitter
-    require 'plugins.telescope', -- Load telescope
-    require 'plugins.lsp', -- Load LSP
-    require 'plugins.autocompletion', -- Load Autocompletion
-    require 'plugins.none-ls', -- Load none-ls
-    require 'plugins.gitsigns', -- Load gitsigns
+    require 'plugins.colortheme',       -- Load Colortheme
+    require 'plugins.neotree',          -- Load Neotree
+    require 'plugins.bufferline',       -- Load bufferline
+    require 'plugins.lualine',          -- Load Lualine
+    require 'plugins.treesitter',       -- Load treesitter
+    require 'plugins.telescope',        -- Load telescope
+    require 'plugins.lsp',              -- Load LSP
+    require 'plugins.autocompletion',   -- Load Autocompletion
+    require 'plugins.none-ls',          -- Load none-ls
+    require 'plugins.gitsigns',         -- Load gitsigns
     require 'plugins.indent-blankline', -- Load indent-blankline
-    require 'plugins.hardtime', -- Load hardtime.nvim
+    require 'plugins.hardtime',         -- Load hardtime.nvim
 }
 
 -- Start of Inline Blockline setup
