@@ -23,7 +23,9 @@ require('lazy').setup {
     require 'plugins.none-ls',          -- Load none-ls
     require 'plugins.gitsigns',         -- Load gitsigns
     require 'plugins.indent-blankline', -- Load indent-blankline
-    require 'plugins.hardtime',         -- Load hardtime.nvim
+    -- require 'plugins.hardtime',         -- Load hardtime.nvim
+    require 'plugins.markdownpreview',  -- Load Markdown preview
+    require 'plugins.live-server',      -- Load live-server
 }
 
 -- Start of Inline Blockline setup
