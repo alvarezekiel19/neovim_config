@@ -15,6 +15,7 @@ require('lazy').setup {
     require 'plugins.catppuccin',       -- Load Catppuccin Theme
     require 'plugins.tokyonight',       -- Load Tokyonight Theme
     require 'plugins.onedarkpro',       -- Load OneDarkPro Theme
+    require 'plugins.tokyodark',        -- Load Tokyodark theme
     require 'plugins.neotree',          -- Load Neotree
     require 'plugins.bufferline',       -- Load bufferline
     require 'plugins.lualine',          -- Load Lualine
@@ -33,6 +34,7 @@ require('lazy').setup {
     require 'plugins/rendermarkdown',   -- Load Render Markdown
     require 'plugins/colorizer',        -- Load colorizer
     require 'plugins/colorfulmenu',     -- Load Colorful Menu
+    require 'plugins/treesj',           -- Load TreeSJ
 }
 
 -- Start of Inline Blockline setup
