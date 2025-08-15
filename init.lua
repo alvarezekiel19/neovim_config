@@ -12,26 +12,27 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup {
-    require 'plugins.catppuccin', -- Load Catppuccin Theme
-    require 'plugins.tokyonight', -- Load Tokyonight Theme
-    require 'plugins.onedarkpro', -- Load OneDarkPro Theme
-    require 'plugins.neotree', -- Load Neotree
-    require 'plugins.bufferline', -- Load bufferline
-    require 'plugins.lualine', -- Load Lualine
-    require 'plugins.treesitter', -- Load treesitter
-    require 'plugins.telescope', -- Load telescope
-    require 'plugins.lsp', -- Load LSP
-    require 'plugins.autocompletion', -- Load Autocompletion
-    require 'plugins.none-ls', -- Load none-ls
-    require 'plugins.gitsigns', -- Load gitsigns
+    require 'plugins.catppuccin',       -- Load Catppuccin Theme
+    require 'plugins.tokyonight',       -- Load Tokyonight Theme
+    require 'plugins.onedarkpro',       -- Load OneDarkPro Theme
+    require 'plugins.neotree',          -- Load Neotree
+    require 'plugins.bufferline',       -- Load bufferline
+    require 'plugins.lualine',          -- Load Lualine
+    require 'plugins.treesitter',       -- Load treesitter
+    require 'plugins.telescope',        -- Load telescope
+    require 'plugins.lsp',              -- Load LSP
+    require 'plugins.autocompletion',   -- Load Autocompletion
+    require 'plugins.none-ls',          -- Load none-ls
+    require 'plugins.gitsigns',         -- Load gitsigns
     require 'plugins.indent-blankline', -- Load indent-blankline
     -- require 'plugins.hardtime',         -- Load hardtime.nvim
-    require 'plugins.markdownpreview', -- Load Markdown preview
-    require 'plugins.live-server', -- Load live-server
-    require 'plugins.vimbegood', -- Load Vim-be-good
-    require 'plugins/noice', -- Load Noice
-    require 'plugins/rendermarkdown', -- Load Render Markdown
-    require 'plugins/colorizer', -- Load colorizer
+    require 'plugins.markdownpreview',  -- Load Markdown preview
+    require 'plugins.live-server',      -- Load live-server
+    require 'plugins.vimbegood',        -- Load Vim-be-good
+    require 'plugins/noice',            -- Load Noice
+    require 'plugins/rendermarkdown',   -- Load Render Markdown
+    require 'plugins/colorizer',        -- Load colorizer
+    require 'plugins/colorfulmenu',     -- Load Colorful Menu
 }
 
 -- Start of Inline Blockline setup
