@@ -29,6 +29,9 @@ require('lazy').setup {
     require 'plugins.markdownpreview', -- Load Markdown preview
     require 'plugins.live-server', -- Load live-server
     require 'plugins.vimbegood', -- Load Vim-be-good
+    require 'plugins/noice', -- Load Noice
+    require 'plugins/rendermarkdown', -- Load Render Markdown
+    require 'plugins/colorizer', -- Load colorizer
 }
 
 -- Start of Inline Blockline setup
@@ -57,3 +60,6 @@ end)
 
 require('ibl').setup { indent = { highlight = highlight } }
 -- End of Inline Blockline setup
+
+-- set line number color
+vim.api.nvim_set_hl(0, 'LineNr', { fg = '#FF9770' })
