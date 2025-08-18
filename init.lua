@@ -67,6 +67,6 @@ require('ibl').setup { indent = { highlight = highlight } }
 
 -- set line number color
 
-vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = '#525252', bold = true })
-vim.api.nvim_set_hl(0, 'LineNr', { fg = '#FF9770', bold = true })
-vim.api.nvim_set_hl(0, 'LineNrBelow', { fg = '#525252', bold = true })
+vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = '#3D3D3D' })
+vim.api.nvim_set_hl(0, 'LineNr', { fg = '#A480F2' })
+vim.api.nvim_set_hl(0, 'LineNrBelow', { fg = '#3D3D3D' })
