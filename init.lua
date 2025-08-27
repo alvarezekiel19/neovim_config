@@ -35,8 +35,8 @@ require('lazy').setup {
     require 'plugins/colorizer',        -- Load colorizer
     require 'plugins/colorfulmenu',     -- Load Colorful Menu
     require 'plugins/treesj',           -- Load TreeSJ
-    require 'plugins/cord',             -- Load cord.nvim
     require 'plugins/todo-comments',    -- Load todo-comments
+    require 'plugins/cord',
 }
 
 -- Start of Inline Blockline setup
@@ -68,6 +68,6 @@ require('ibl').setup { indent = { highlight = highlight } }
 
 -- set line number color
 
-vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = '#3D3D3D' })
+vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = '#3d3d3d' })
 vim.api.nvim_set_hl(0, 'LineNr', { fg = '#D19A66' })
-vim.api.nvim_set_hl(0, 'LineNrBelow', { fg = '#3D3D3D' })
+vim.api.nvim_set_hl(0, 'LineNrBelow', { fg = '#3d3d3d' })
