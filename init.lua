@@ -36,7 +36,8 @@ require('lazy').setup {
     require 'plugins/colorfulmenu',     -- Load Colorful Menu
     require 'plugins/treesj',           -- Load TreeSJ
     require 'plugins/todo-comments',    -- Load todo-comments
-    require 'plugins/cord',
+    require 'plugins/cord',             -- Load cord
+    require 'plugins/lensline',         -- Load lensline
 }
 
 -- Start of Inline Blockline setup
