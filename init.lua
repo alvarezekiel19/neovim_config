@@ -15,7 +15,6 @@ require('lazy').setup {
     require 'plugins.catppuccin',       -- Load Catppuccin Theme
     require 'plugins.tokyonight',       -- Load Tokyonight Theme
     require 'plugins.onedarkpro',       -- Load OneDarkPro Theme
-    require 'plugins.tokyodark',        -- Load Tokyodark theme
     require 'plugins.neotree',          -- Load Neotree
     require 'plugins.bufferline',       -- Load bufferline
     require 'plugins.lualine',          -- Load Lualine
@@ -37,7 +36,8 @@ require('lazy').setup {
     require 'plugins/todo-comments',    -- Load todo-comments
     require 'plugins/cord',             -- Load cord
     require 'plugins/lensline',         -- Load lensline
-    require 'plugins/tinyinlinediag',
+    require 'plugins/tinyinlinediag',   -- Load tinyinlinediag
+    require 'plugins/wakatime',         -- Load wakatime
 }
 
 -- Start of Inline Blockline setup
